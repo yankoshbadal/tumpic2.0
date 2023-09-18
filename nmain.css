@@ -1,0 +1,39 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	height: 1000px;
+	background-color: #222222;
+}
+h1{
+	font-size: 40px;
+	font-family: arial;
+	line-height: 20px;
+	color: blue;
+}
+h2{
+	font-size: 30px;
+	font-family: arial;
+	color: skyblue;
+	line-height: 0px;
+}
+a{  text-decoration: none;
+	font-size: 20px;
+	font-family: arial;
+	color: orange;
+	line-height: 0px;
+}
+.imageholder{
+	height: 561px;
+	width: 374px;
+	background-color: orange;
+	background-image: url("Image/photooftheweek.jpg");
+	background-size: 100%;
+	border:solid orange 5px;
+	transition: all .5s;
+
+}
+.imageholder:hover{
+   background-image: url("Image/photooftheweek2.jpg");
+   border:solid skyblue 5px;
+}

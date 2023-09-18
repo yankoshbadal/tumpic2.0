@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>Thumpic</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link rel="icon" type="img/png" href="Image/tumpicslogo.png"/>
+    	<link rel="stylesheet" type="text/css" href="main.css">
+        <script src="jquery-1.10.2.min.js"></script>
+       
+        
+        
+        <script src="jquery-1.10.2.min.js"></script>
+      
+        <script>
+         
+
+               $(document).ready(function(){
+               $("#link1").click(function(e){
+                e.preventDefault()
+                    $path=$("#box1").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+               $("#link2").click(function(e){
+                e.preventDefault()
+                    $path=$("#box2").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+               $("#link3").click(function(e){
+                e.preventDefault()
+                    $path=$("#box3").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+               $("#link4").click(function(e){
+                e.preventDefault()
+                    $path=$("#box4").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+               
+               $("#link7").click(function(e){
+                e.preventDefault()
+                    $path=$("#box7").offset().top;
+                    $('body').animate({scrollTop:$path},1000);
+               });
+            });
+        </script>
+
+    </head>
+    <body>
+      <!-- <div id="loader">
+  <img src="Image/preloader.gif">
+ 
+</div>
+<script type="text/javascript">
+  var loader = document.getElementById('loader');
+
+  window.addEventListener('load',function() {
+   
+   loader.style.height= "100px";
+   loader.style.width = "100px";
+   loader.style.borderRadius = "100px";
+   loader.style.visibility = "hidden";
+  });
+
+  $('.trigger').on('click',function(){
+    $(this).toggleClass('hover');
+  });
+</script>-->
+<script type="text/javascript">
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $("#menu");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
+    	
+        <div id="menu">
+            <img src="Image/thelogo.png">
+                  <a href="news.html" >News<font ></font></a>
+                  <a href="#box7" id="link7"><font >Ourteam</font></a>
+                  <a href="#box3" id="link3"><font >Features</font></a>
+                  <a href="#box1" id="link1"><font >Home</font></a>   
+        </div>
+
+        <div id="box1">
+          <span class="border0"></span>
+           <div class="line0">Let's Explore Yourself</div>
+           <div class="welcome">Welcome to  Thumpic.</div><div class="line01"><p>This platform will allow you to to explore yourself.</p></div>
+           <div class="image01"><a href="www.mata.com"><img src="Image/image.png"></a>
+        </div>
+        <div class="image02"><img src="Image/profile.png" alt=""></div>
+
+    </div>
+        <div id="box2">
+           <div class="line1">Overview</div>
+           <span class="border"></span>
+           <div class="center"><div class="theconten"><p><font size="40px">S</font>hare your pic not to your friends rather to the world and click the pic <br> and get the great numbers of likes and come in photo of the week</br> will be displayed our on our official website</p></div></div>
+           <center><img src="Image/potato.png"></center>
+        </div>
+        <div id="box3">
+            <div class="line2"> Close up features</div>
+           <span class="border"></span>
+           <div class="para1"><p><font color="white">--------------</font><font size="4px"><strong>CROPPING SETTING</strong></font><br>Crop your pic in way you want and edit pic in your style.<br><br><font color="white">----------------</font><font size="4px"><strong>COOL SYSTEM</strong></font><br>Your pic automatically deleted in a week and the pic which would have maximum numbers of likes and minimum number of dislikes will be chosen as the pic of the week and will be dispalced on our official website.</p><br><font color="white">------------</font><font size="4px"><strong>LIKE AND DISLIKE SYSTEM </strong></font><br>For liking the pic you have to drag the pic towards upwards direction and for disliking the pic you have to drag the pic towards downwards direction.</p>
+           </div>
+
+           
+          
+          <div class="para4"><p><font color="white">-----------------</font><font size="4px"><strong>SKIP SYSTEM</strong></font><br>In this app you can have two choices either you can dislike the post or you can can like it .You can not skip any post you have to face each and every post.<br><br><font color="white">--------------------</font><font size="4px"><strong>DESGIN</strong></font><br>This app is basically for fun and feel as compatating others.This app provides you a interactive desgin.<br><br><br><br>
+            <font color="white">---------</font><font size="4px"><strong>BEST THING ABOUT THE APP</strong></font><br>Simple and something different than other social medias.<br><br></p></div>
+           
+        </div>
+        <div id="box4">
+            <div class="l2">Screenshots</div>
+           <span class="border"></span>
+             
+
+        </div>
+        <div id="box7">
+          <div class="l3">Ourteam</div>
+           <span class="border"></span>
+          <div class="trigger" >
+
+         <div class="pro"><p><p><div class="box"></div></div>
+       </div>
+      
+       <div class="trigger2" >
+
+         <div class="pro2"><p><p><div class="box2"></div></div>
+       </div>
+        </div>
+
+        <div id="box5">
+        </div>
+        <div class="bottomline"></div>
+        <div id="box6">
+            <div class="tclogo"><p>For Smartphone<br>Photographers</p></div>
+        </div>
+        <div class="contacts"><h5>Contacts</h5><p>Thumpic@gmail.com<br>Phone:9110139050<br>Darbhanga Bihar India</p></div>
+        <div class="social"><h5>Social</h5>
+          <a href="linkteitter"><div class="twitter"></div></a>
+      <a href="youtube,bom"><div class="youtube"></div></a>
+    <a href="function"><div class="facebook"></div></a>
+  <a href="jnhj k"><div class="linkedin"></div></a>
+ <a href="bhbj"><div class="google"></div></div></a>
+ <div class="tc">
+   <a href="terms.html"><center><p>Terms & Conditions.</p></center></a>
+
+            <div class="yankosh"><center>Copyright © 2018 Thumpic All right recieved <br>Developed By:<a href="https://www.instagram.com/yankoshbadal/"> Yankosh Badal</a></center>
+ </div>
+        
+    </body>
+</html>
